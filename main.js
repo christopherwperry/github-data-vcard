@@ -5,7 +5,6 @@ fetch('https://api.github.com/users/christopherwperry')
           response.status);
         return;
       }
-
     response.json().then(function(data) {
       let yourName = data.name;
       let gitURL = data.html_url;
