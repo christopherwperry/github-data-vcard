@@ -37,6 +37,7 @@ fetch('https://api.github.com/users/christopherwperry')
         </div>
       </div>
       `;
+
       let content = document.getElementById("body-content");
       content.innerHTML = template;
       })

@@ -1,3 +1,7 @@
+body {
+  background: #000000;
+}
+
 #main-head {
   text-align: center;
   background-color: #161616;
@@ -16,13 +20,13 @@
 }
 
 .the-story {
-  margin-left: 8vw;
+  margin-left: 2vw;
   margin-right: 10vw;
 }
 
 .basics-text {
   border-right: solid 1px #828282;
-  padding-right: 2vw;
+  padding-right: 8vw;
 }
 
 img {
